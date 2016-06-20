@@ -1,0 +1,12 @@
+g++ -c  -std=c++0x -g3 -O0 -Wall -Wno-deprecated -UDEBUG -I ../src diockt.cpp -o diockt.o
+In file included from diockt.cpp:24:0:
+../src/spice.h: In member function 'virtual void bjt::parameters()':
+../src/spice.h:1127:16: warning: variable 'vcrit' set but not used [-Wunused-but-set-variable]
+         double vcrit;
+                ^
+g++ -std=c++0x -g3 -O0 -Wall  diockt.o ../lib/c++hdl.a ../lib/sparse.a   -o diockt
+../lib/c++hdl.a(kernel.o): In function `ZN6kernel3addEP8equation':
+C:\Users\bab\src\c++\c++hdl\src/kernel.cpp:104: undefined reference to `kernel::equations'
+C:\Users\bab\src\c++\c++hdl\src/kernel.cpp:106: undefined reference to `kernel::equations'
+collect2.exe: error: ld returned 1 exit status
+make.exe: *** [diockt] Error 1

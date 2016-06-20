@@ -1,0 +1,13 @@
+gvim -p \
+kernel.h \
+kernel.cpp \
+quantity.h \
+quantity.cpp \
+equation.h \
+equation.cpp \
+model.h \
+model.cpp \
+matrix.h \
+matrix.cpp \
+&
+

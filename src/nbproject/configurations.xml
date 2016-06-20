@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>constant.h</in>
+      <in>equation.cpp</in>
+      <in>equation.h</in>
+      <in>errstream.h</in>
+      <in>global.cpp</in>
+      <in>global.h</in>
+      <in>hdl.h</in>
+      <in>kernel.cpp</in>
+      <in>kernel.h</in>
+      <in>kernel1.cpp</in>
+      <in>kernel1.h</in>
+      <in>matrix.cpp</in>
+      <in>matrix.h</in>
+      <in>model.cpp</in>
+      <in>model.h</in>
+      <in>node.cpp</in>
+      <in>node.h</in>
+      <in>parameter.cpp</in>
+      <in>parameter.h</in>
+      <in>pll.h</in>
+      <in>quantity.cpp</in>
+      <in>quantity.h</in>
+      <in>spice.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>MinGW|MinGW</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="constant.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="equation.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="equation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="errstream.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="global.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hdl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kernel.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kernel.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="kernel1.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="kernel1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="node.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="node.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="parameter.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="parameter.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="pll.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="quantity.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="quantity.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="spice.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

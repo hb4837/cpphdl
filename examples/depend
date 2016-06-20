@@ -1,0 +1,100 @@
+bipckt.o: bipckt.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+diffpair.o: diffpair.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+diockt.o: diockt.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+example2.o: example2.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+example3.o: example3.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+example4.o: example4.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+example5.o: example5.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+example7.o: example7.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+example8.o: example8.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+pll.o: pll.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h ../src/pll.h
+rc.o: rc.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+rca3040.o: rca3040.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+rcckt.o: rcckt.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+rtlinv.o: rtlinv.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+ttlinv.o: ttlinv.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+ua709.o: ua709.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+ua727.o: ua727.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+ua741.o: ua741.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+ua741x.o: ua741x.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h
+vco.o: vco.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h ../src/pll.h

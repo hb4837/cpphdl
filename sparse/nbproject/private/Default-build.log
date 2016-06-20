@@ -1,0 +1,9 @@
+gcc -c  -O -w -Wno-traditional spAllocate.c -o spAllocate.o
+gcc -c  -O -w -Wno-traditional spBuild.c -o spBuild.o
+gcc -c  -O -w -Wno-traditional spFactor.c -o spFactor.o
+gcc -c  -O -w -Wno-traditional spOutput.c -o spOutput.o
+gcc -c  -O -w -Wno-traditional spSolve.c -o spSolve.o
+gcc -c  -O -w -Wno-traditional spUtils.c -o spUtils.o
+ar r   ../lib/sparse.a spAllocate.o spBuild.o spFactor.o spOutput.o spSolve.o spUtils.o
+c:\MinGW\bin\ar.exe: creating ../lib/sparse.a
+ranlib ../lib/sparse.a

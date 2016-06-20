@@ -1,0 +1,10 @@
+d1.o: d1.cpp ../src/hdl.h ../src/constant.h ../src/global.h ../src/util.h \
+ ../src/node.h ../src/quantity.h ../src/model.h ../src/equation.h \
+ ../src/port.h ../src/parameter.h ../src/matrix.h \
+ ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h ../src/spice.h ../src/hdl.h
+q1.o: q1.cpp ../src/spice.h ../src/hdl.h ../src/constant.h \
+ ../src/global.h ../src/util.h ../src/node.h ../src/quantity.h \
+ ../src/model.h ../src/equation.h ../src/port.h ../src/parameter.h \
+ ../src/matrix.h ../src/../sparse/spConfig.h ../src/../sparse/spMatrix.h \
+ ../src/../sparse/spConfig.h

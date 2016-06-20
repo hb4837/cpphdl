@@ -1,0 +1,25 @@
+util.o: util.cpp util.h
+global.o: global.cpp global.h sim.h
+node.o: node.cpp global.h sim.h equation.h model.h quantity.h port.h \
+ node.h parameter.h matrix.h ../sparse/spConfig.h ../sparse/spMatrix.h \
+ ../sparse/spConfig.h
+quantity.o: quantity.cpp quantity.h global.h sim.h model.h equation.h \
+ port.h node.h parameter.h matrix.h ../sparse/spConfig.h \
+ ../sparse/spMatrix.h ../sparse/spConfig.h indent_facet.hpp
+equation.o: equation.cpp equation.h matrix.h ../sparse/spConfig.h \
+ ../sparse/spMatrix.h ../sparse/spConfig.h node.h quantity.h global.h \
+ sim.h model.h port.h parameter.h indent_facet.hpp
+model.o: model.cpp indent_facet.hpp model.h equation.h quantity.h \
+ global.h sim.h port.h node.h parameter.h
+parameter.o: parameter.cpp parameter.h model.h equation.h quantity.h \
+ global.h sim.h port.h node.h
+port.o: port.cpp port.h node.h model.h equation.h quantity.h global.h \
+ sim.h parameter.h
+matrix.o: matrix.cpp global.h sim.h node.h matrix.h ../sparse/spConfig.h \
+ ../sparse/spMatrix.h ../sparse/spConfig.h util.h
+sim.o: sim.cpp sim.h
+sta.o: sta.cpp sta.h sim.h model.h equation.h quantity.h global.h port.h \
+ node.h parameter.h matrix.h ../sparse/spConfig.h ../sparse/spMatrix.h \
+ ../sparse/spConfig.h util.h indent_facet.hpp
+util.o: util.cpp util.h
+indent_facet.o: indent_facet.cpp indent_facet.hpp

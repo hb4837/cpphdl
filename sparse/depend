@@ -1,0 +1,6 @@
+spAllocate.o: spAllocate.c spConfig.h spMatrix.h spDefs.h
+spBuild.o: spBuild.c spConfig.h spMatrix.h spDefs.h
+spFactor.o: spFactor.c spConfig.h spMatrix.h spDefs.h
+spOutput.o: spOutput.c spConfig.h spMatrix.h spDefs.h
+spSolve.o: spSolve.c spConfig.h spMatrix.h spDefs.h
+spUtils.o: spUtils.c spConfig.h spMatrix.h spDefs.h
